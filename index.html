@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Le pendu</title>
+  </head>
+  <body>
+    <header>
+      <h1>Le pendu</h1>
+    </header>
+    <main>
+      <section id="containerGlobal">
+        <h2>le pendu</h2>
+        <p>
+          Bienvenue au jeu du Pendu. Entre une lettre pour deviner le mots
+          caché.
+        </p>
+        <p>Attention au Pendu !</p>
+        <button onclick="cache()" type="button" class="com">Commencer</button>
+        <div id="motsAdevine"></div>
+
+        <div id="clavier"></div>
+        <!-- <textarea
+          id="lettreUser"
+          cols="30"
+          rows="2"
+          placeholder="Entre une lettre"
+        ></textarea> -->
+        <!-- <button onclick="valide()" type="button" class="ok">✔️</button> -->
+        <div id="imgContainer"></div>
+      </section>
+      <div id="gagne"></div>
+      <div id="rejoue" class="hidden">
+        <button type="button" class="reply">Rejouer</button>
+      </div>
+    </main>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
